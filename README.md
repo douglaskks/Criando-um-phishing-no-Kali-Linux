@@ -17,4 +17,15 @@ para identificar e evitar ataques de phishing, além de adquirir conhecimentos v
 
 ### Virtual Machine
 É recomendado que você faça isso em casa apenaspara testes, isso pode ser considerado uma técnica ilegal caso você<br>
-tente aplicar em alguma rede corporativa ou sem mera autorização do proprietário"
+tente aplicar em alguma rede corporativa ou sem mera autorização do proprietário"<br>
+
+Inicialmnente é interessante modificar a rede em que a Máquina Virtual do Kali Linux está trabalhando, normalmente<br>
+eles começam trabalhando em <b>NAT</b> nesse caso você precisará modificar para ela trabalhar em <b>Modo Bridge</b><br>
+
+<ul>Abrir o Virtual Box ou VM Ware que você utiliza</ul>
+<ul>Selecione a opção <b>Configurações</b></ul>
+<ul>Selecione a opção <b>Rede</b></ul>
+<ul>Selecione o adaptador em que seu Kali Linux está rodando a internet</ul>
+<ul>Modifique a opção que está escrito <b>Conectado a: </b> para <b>Placa em Modo Bridge</b></ul>
+<ul> <b> Salvar </b> </ul>
+
