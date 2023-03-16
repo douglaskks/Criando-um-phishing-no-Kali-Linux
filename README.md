@@ -29,3 +29,33 @@ eles começam trabalhando em <b>NAT</b> nesse caso você precisará modificar pa
 <ul>Modifique a opção que está escrito <b>Conectado a: </b> para <b>Placa em Modo Bridge</b></ul>
 <ul> <b> Salvar </b> </ul>
 
+
+### Kali Linux
+É Necessário acesso ao root para executar essa ferramenta, você consegue através do comando:
+<ul><b>sudo su</b></ul>
+<ul><b>Digite sua Senha</b></ul><br>
+
+Agora vamos executar a ferramenta:
+<ul><b>setoolkit</b></ul>
+
+1° passo é escolher o tipo de ataque que queremos fazer, você escolherá:
+<ul><b>1) Social-Engineering Toolkit</b></ul>
+
+2° Passo é escolher de onde vai partir o seu ataque, você escolherá:
+<ul><b>2) Website attack Vectors</b></ul>
+
+3° Passo é como o ataque será feito, você escolherá:
+<ul><b>3) Credentials Harvester Attack Method</b></ul>
+
+4° Passo - Agora você escolherá a opção que irá clonar um site, que será a opção:
+<ul><b> 2 Website Cloner</b></ul>
+
+5° Passo - Como irá rodar um servidor no seu Kali Linux ele irá pedir o IP da máquina, como ele já sugere<br>
+um, porquê ele já reconhece, então você já pode teclar <b>Enter</b>.
+
+6° Passo - Agora informe o site a ser clonado, o exemplo que irei mostrar é o do Facebook "https://www.facebook.com"<br>
+copia e cola lá no terminal do Kali Linux para o toolkit saber qual o website a clonar, lembrando que o htttp deve está também<br>
+e tecle <b>Enter</b>.
+
+7° Passo - Agora você pode testar colocando o IP da sua máquina que foi mensionado em uma etapa falada acima, assim <br>
+que a vítima entrar nesse site e tentar logar, dentro do Kali Linux, irá aparecer reports, principalmente o usuário e senha.
