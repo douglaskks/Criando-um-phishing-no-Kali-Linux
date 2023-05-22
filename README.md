@@ -59,3 +59,8 @@ e tecle <b>Enter</b>.
 
 7° Passo - Agora você pode testar colocando o IP da sua máquina que foi mensionado em uma etapa falada acima, assim <br>
 que a vítima entrar nesse site e tentar logar, dentro do Kali Linux, irá aparecer reports, principalmente o usuário e senha.
+
+
+## Lembrando que isso se feito em algum local que você não tem autorização para fazer seus teste pode-se<br>
+entender que você está utilizando os conhecimentos adquiridos para prejudicar a empresa ou pessoa onde isso <br>
+está sendo testado, tome cuidado ao fazer seus testes de phishing em outros locais
